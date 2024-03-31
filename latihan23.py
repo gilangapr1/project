@@ -1,0 +1,13 @@
+print ("                 ""Toko Elektronik Gilang")
+print ("                ""*************************")
+namaPembeli = (input("Masukan Nama Pembeli: "))
+kodeAlat = (input("Masukan Kode Alat: "))
+hargaAlat = (input ("Masukan Harga: "))
+jumlahBeli = (input("Jumlah Beli: "))
+total = hargaAlat + jumlahBeli
+print ("     ""===========================")
+print ("Nama Pembeli: " +str(namaPembeli))
+print ("Kode Alat: "  +str(kodeAlat))
+print ("Harga Alat: " +str (hargaAlat))
+print ("Jumlah Beli: " +str(jumlahBeli))
+print ("Total Harga: " +str(total))
